@@ -39,3 +39,57 @@ entubada_total,Porcentaje de viviendas con agua entubada dentro de la vivienda o
 AG0102,Datos del Indicador. Entubada_total / 10. Para la construccion del indicador se obtiene el promedio de los municipios que componen cada ciudad
 ,
 CIS,"Indica si una ciudad tiene información Completa, Incompleta o Sin información"
+,
+CHECK,Indica si el municipio se encontró en el Dataset durante el análisis de integridad.\nTRUE: El municipio existe en el Dataset\nFALSE: El municipio no existe en el Dataset
+,
+DENUNCIAS_AMB,Total de Denuncias recibidas en materia ambiental de 1994 a 2014
+,
+DENUNCIAS_AMB_1994,Total de Denuncias recibidas en materia ambiental en 1994
+,
+DENUNCIAS_AMB_1995,Total de Denuncias recibidas en materia ambiental en 1995
+,
+DENUNCIAS_AMB_1996,Total de Denuncias recibidas en materia ambiental en 1996
+,
+DENUNCIAS_AMB_1997,Total de Denuncias recibidas en materia ambiental en 1997
+,
+DENUNCIAS_AMB_1998,Total de Denuncias recibidas en materia ambiental en 1998
+,
+DENUNCIAS_AMB_1999,Total de Denuncias recibidas en materia ambiental en 1999
+,
+DENUNCIAS_AMB_2000,Total de Denuncias recibidas en materia ambiental en 2000
+,
+DENUNCIAS_AMB_2001,Total de Denuncias recibidas en materia ambiental en 2001
+,
+DENUNCIAS_AMB_2002,Total de Denuncias recibidas en materia ambiental en 2002
+,
+DENUNCIAS_AMB_2003,Total de Denuncias recibidas en materia ambiental en 2003
+,
+DENUNCIAS_AMB_2004,Total de Denuncias recibidas en materia ambiental en 2004
+,
+DENUNCIAS_AMB_2005,Total de Denuncias recibidas en materia ambiental en 2005
+,
+DENUNCIAS_AMB_2006,Total de Denuncias recibidas en materia ambiental en 2006
+,
+DENUNCIAS_AMB_2007,Total de Denuncias recibidas en materia ambiental en 2007
+,
+DENUNCIAS_AMB_2008,Total de Denuncias recibidas en materia ambiental en 2008
+,
+DENUNCIAS_AMB_2009,Total de Denuncias recibidas en materia ambiental en 2009
+,
+DENUNCIAS_AMB_2010,Total de Denuncias recibidas en materia ambiental en 2010
+,
+DENUNCIAS_AMB_2011,Total de Denuncias recibidas en materia ambiental en 2011
+,
+DENUNCIAS_AMB_2012,Total de Denuncias recibidas en materia ambiental en 2012
+,
+DENUNCIAS_AMB_2013,Total de Denuncias recibidas en materia ambiental en 2013
+,
+DENUNCIAS_AMB_2014,Total de Denuncias recibidas en materia ambiental en 2014
+,
+INTEGRIDAD,Indica qué tan completa se encuentra la información.\n1 = Información completa\n<1 = Información Incompleta\n0 = Informacion Inexistente
+,
+NUM_ANIOS_FALTANTES,Indica el número de años en los que un municipio no tiene información
+,
+SUBSIS_PPAL,"Indica si el municipio forma parte del Subsistema Principal, de acuerdo con la clasificación del SUN. \n1 = Pertenece al Subsistema Principal\n0 = No pertenece al Subsistema Principal."
+,
+VAR_INTEGRIDAD,"Calculo de integridad independiente para cada Dataset de la PCCS (Ver metadatos del Dataset), multiplicador para el calculo de integridad de informacion por Ciudad."

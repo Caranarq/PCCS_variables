@@ -43,15 +43,13 @@ def variables(lista):
             metavariables[i] = dictvariables[i]
             continue
         else:
-            hacer = input('La variable "{}" no existe en el proyecto. [A]gregar [S]alir:'.format(i)).upper()
-            if hacer == 'S':
+            mensaje = 'La variable "{}" no existe en el proyecto. Escribe su descripcion o [SSALIR]:'.format(i)
+            hacer = input(mensaje)
+            if hacer == 'SSALIR':
                 raise ValueError('Script terminado por el usuario')
-            elif hacer == 'A':
-                valor = input('Escribe la descripcion para la variable "{}"'.format(i))
-                actualizacion_variables[i] = valor
-                metavariables[i] = dictvariables[i]
             else:
-                raise ValueError('{} no es una accion valida'.format(hacer))
+                actualizacion_variables[i] = hacer
+                metavariables[i] = hacer
 
     with open(archivovariablescsv, 'w') as csv_file:
         writer = csv.writer(csv_file)
