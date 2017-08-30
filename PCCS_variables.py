@@ -43,10 +43,15 @@ def variables(lista):
             metavariables[i] = dictvariables[i]
             continue
         else:
-            mensaje = 'La variable "{}" no existe en el proyecto. Escribe su descripcion o [SSALIR]:'.format(i)
+            mensaje = 'La variable "{}" no existe en el proyecto. Escribe su descripcion o ' \
+                      '[SSALIR] Sin guardar' \
+                      '[GSALIR] y guardar:'.format(i)
             hacer = input(mensaje)
             if hacer == 'SSALIR':
                 raise ValueError('Script terminado por el usuario')
+            elif hacer == 'GSALIR':
+                print('Se guardaron las descripciones capturadas')
+                break
             else:
                 actualizacion_variables[i] = hacer
                 metavariables[i] = hacer
